@@ -15,15 +15,23 @@ div.head {
     display: inline-block;
 }
 
- div.headbar {
+div.headbar {
     background-color: #DD2727;
 }
 
 div.rightMenu {
-    display: inline-block;
+    display: inline;
 }
+
+div.categoryWithCarousel {
+    background-color: rgb(232, 232, 232);
+}
+
 div.categoryWithCarousel div.rightMenu span {
     margin: 0px 20px 0px 20px;
+}
+div.categoryWithCarousel div.rightMenu span a{
+    padding:0;
 }
 div.categoryWithCarousel div.rightMenu a {
     font-size: 16px;
@@ -60,6 +68,9 @@ div.productsAsideCategorys a {
     color: #999;
     font-size: 14px;
     margin: 8px;
+}
+div.eachCategory a {
+    color:black;
 }
 
 div.categoryWithCarousel div.productsAsideCategorys {
@@ -136,6 +147,7 @@ div.productItem span.productItemDesc {
     color: #666666;
     display: block;
     padding: 16px;
+
 }
 
 div.productItem div.product-mask {
@@ -163,4 +175,13 @@ img.endpng {
     display: block;
     width: 82px;
     margin: 0 auto;
+}
+
+div.carousel-of-product,div.carousel-of-product img{
+    width:100%;
+}
+
+div.carousel-inner {
+    width: 1180px;
+    left: 300px;
 }

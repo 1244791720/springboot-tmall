@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js""></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/myOrderPage.css" />
+    <title>我的订单</title>
+</head>
+<body>
+    <!-- <iframe src="commonNav.html" align="middle" seamless="seamless" frameborder="0" width="100%" height="34px"></iframe> -->
+    <!-- <iframe src="commonSimpleSearch.html" align="middle" seamless="seamless" frameborder="0" width="100%" height="110px"></iframe> -->
+    <div class="boughtDiv">
+        <div class="orderType">
+            <div class="selectedOrderType">
+                <a orderstatus="all" href="#nowhere">所有订单</a>
+            </div>
+            <div>
+                <a orderstatus="waitPay" href="#nowhere">待付款</a>
+            </div>
+            <div>
+                <a orderstatus="waitDelivery" href="#nowhere">待发货</a>
+            </div>
+            <div>
+                <a orderstatus="waitConfirm" href="#nowhere">待收货</a>
+            </div>
+            <div>
+                <a orderstatus="waitReview" href="#nowhere" class="noRightborder">待评价</a>
+            </div>
+            <div class="orderTypeLastOne">
+                <a class="noRightborder">&nbsp;</a>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="orderListTitle">
+            <table class="orderListTitleTable">
+                <tbody>
+                    <tr>
+                        <td>宝贝</td>
+                        <td width="100px">单价</td>
+                        <td width="100px">数量</td>
+                        <td width="120px">实付款</td>
+                        <td width="100px">交易操作</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="orderListItem">
+            <table class="orderListItemTable" orderstatus="waitConfirm">
+                <tbody>
+                    <tr class="orderListItemFirstTR">
+                        <td colspan="2">
+    					<b>2018-08-19 14:48:40</b>
+    					<span>订单号: 201808191448405906662
+    					</span>
+    					</td>
+                        <td colspan="2">
+                            <img width="13px" src="image/site/orderItemTmall.png">天猫商场
+                        </td>
+                        <td colspan="1">
+    						<a class="wangwanglink" href="#nowhere">
+    							<div class="orderItemWangWangGif"></div>
+    						</a>
+    					</td>
+                        <td class="orderItemDeleteTD">
+    						<a class="deleteOrderLink" oid="7645" href="#nowhere">
+    							<span class="orderListItemDelete glyphicon glyphicon-trash"></span>
+    						</a>
+    					</td>
+                    </tr>
+                    <tr class="orderItemProductInfoPartTR">
+                        <td class="orderItemProductInfoPartTD">
+                            <img width="80" height="80" src="image/productSingle_middle/676.jpg">
+                        </td>
+                        <td class="orderItemProductInfoPartTD">
+                            <div class="orderListItemProductLinkOutDiv">
+                                <a href="foreproduct?pid=91">夏普屏PANDA/熊猫 LE39D71S 39英寸智能WiFi液晶平板电视40 42 43</a>
+                            </div>
+                            <div class="orderListItemProductLinkInnerDiv">
+                                <img src="image/site/creditcard.png" title="支持信用卡支付">
+                                <img src="image/site/7day.png" title="消费者保障服务,承诺7天退货">
+                                <img src="image/site/promise.png" title="消费者保障服务,承诺如实描述">
+                            </div>
+                        </td>
+                        <td class="orderItemProductInfoPartTD" width="100px">
+                            <div class="orderListItemProductOriginalPrice">
+                                ￥2,499.00
+                            </div>
+                            <div class="orderListItemProductPrice">
+                                ￥1,874.25
+                            </div>
+                        </td>
+                        <td valign="top" rowspan="1" class="orderListItemNumberTD orderItemOrderInfoPartTD" width="100px">
+							<span class="orderListItemNumber">2</span>
+						</td>
+                        <td valign="top" rowspan="1" width="120px" class="orderListItemProductRealPriceTD orderItemOrderInfoPartTD">
+    						<div class="orderListItemProductRealPrice">￥3,748.50</div>
+    						<div class="orderListItemPriceWithTransport">(含运费：￥0.00)</div>
+    					</td>
+                        <td valign="top" rowspan="1" class="orderListItemButtonTD orderItemOrderInfoPartTD" width="100px">
+								<a href="foreconfirmPay?oid=7645">
+									<button class="orderListItemConfirm">确认收货</button>
+								</a>
+						</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="orderListItemTable">
+                <tbody>
+                    <tr class="orderListItemFirstTR">
+                        <td colspan="2">
+    					<b>2018-08-19 14:48:40</b>
+    					<span>订单号: 201808191448405906662
+    					</span>
+    					</td>
+                        <td colspan="2">
+                            <img width="13px" src="image/site/orderItemTmall.png">天猫商场
+                        </td>
+                        <td colspan="1">
+    						<a class="wangwanglink" href="#nowhere">
+    							<div class="orderItemWangWangGif"></div>
+    						</a>
+    					</td>
+                        <td class="orderItemDeleteTD">
+    						<a class="deleteOrderLink" oid="7645" href="#nowhere">
+    							<span class="orderListItemDelete glyphicon glyphicon-trash"></span>
+    						</a>
+    					</td>
+                    </tr>
+                    <tr class="orderItemProductInfoPartTR">
+                        <td class="orderItemProductInfoPartTD">
+                            <img width="80" height="80" src="image/productSingle_middle/676.jpg">
+                        </td>
+                        <td class="orderItemProductInfoPartTD">
+                            <div class="orderListItemProductLinkOutDiv">
+                                <a href="foreproduct?pid=91">夏普屏PANDA/熊猫 LE39D71S 39英寸智能WiFi液晶平板电视40 42 43</a>
+                            </div>
+                            <div class="orderListItemProductLinkInnerDiv">
+                                <img src="image/site/creditcard.png" title="支持信用卡支付">
+                                <img src="image/site/7day.png" title="消费者保障服务,承诺7天退货">
+                                <img src="image/site/promise.png" title="消费者保障服务,承诺如实描述">
+                            </div>
+                        </td>
+                        <td class="orderItemProductInfoPartTD" width="100px">
+                            <div class="orderListItemProductOriginalPrice">
+                                ￥2,499.00
+                            </div>
+                            <div class="orderListItemProductPrice">
+                                ￥1,874.25
+                            </div>
+                        </td>
+                        <td valign="top" rowspan="1" class="orderListItemNumberTD orderItemOrderInfoPartTD" width="100px">
+							<span class="orderListItemNumber">2</span>
+						</td>
+                        <td valign="top" rowspan="1" width="120px" class="orderListItemProductRealPriceTD orderItemOrderInfoPartTD">
+    						<div class="orderListItemProductRealPrice">￥3,748.50</div>
+    						<div class="orderListItemPriceWithTransport">(含运费：￥0.00)</div>
+    					</td>
+                        <td valign="top" rowspan="1" class="orderListItemButtonTD orderItemOrderInfoPartTD" width="100px">
+								<a href="foreconfirmPay?oid=7645">
+									<button class="orderListItemConfirm">确认收货</button>
+								</a>
+						</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <iframe src="commonFoot.html" frameborder="0" width="100%" height="600px;"></iframe>
+    <script src='js/myOrderPage.js'></script>
+</body>
+</html>

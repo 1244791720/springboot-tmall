@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js""></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/EvaluationPage.css" />
+    <title>评价页面</title>
+</head>
+<body>
+    <iframe src="commonNav.html" align="middle" seamless="seamless" frameborder="0" width="100%" height="34px"></iframe>
+    <iframe src="commonSimpleSearch.html" align="middle" seamless="seamless" frameborder="0" width="100%" height="110px"></iframe>
+        <div class="reviewDiv">
+            <div class="reviewProductInfoDiv">
+                <div class="reviewProductInfoImg">
+                    <img width="400px" height="400px" src="image/productSingle/676.jpg">
+                </div>
+                <div class="reviewProductInfoRightDiv">
+                    <div class="reviewProductInfoRightText">
+				        夏普屏PANDA/熊猫 LE39D71S 39英寸智能WiFi液晶平板电视40 42 43
+                    </div>
+                    <table class="reviewProductInfoTable">
+                        <tbody>
+                            <tr>
+                                <td width="75px">价格:</td>
+                                <td><span class="reviewProductInfoTablePrice">￥2,499.00</span> 元 </td>
+                            </tr>
+                            <tr>
+            					<td>配送</td>
+            					<td>快递:  0.00</td>
+            				</tr>
+                            <tr>
+            					<td>月销量:</td>
+            					<td><span class="reviewProductInfoTableSellNumber">2166</span> 件</td>
+            				</tr>
+                        </tbody>
+                    </table>
+                    <div class="reviewProductInfoRightBelowDiv">
+                        <span class="reviewProductInfoRightBelowImg"><img src="image/site/reviewLight.png"></img></span>
+                        <span class="reviewProductInfoRightBelowText">
+                            现在查看的是 您所购买商品的信息于2018年08月19下单购买了此商品
+                        </span>
+                    </div>
+
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="reviewStasticsDiv">
+                <div class="reviewStasticsLeft">
+                    <div class="reviewStasticsLeftTop"></div>
+                    <div class="reviewStasticsLeftContent">
+                        累计评价
+                        <span class="reviewStasticsNumber"> 92</span>
+                    </div>
+                    <div class="reviewStasticsLeftFoot"></div>
+                </div>
+                <div class="reviewStasticsRight">
+                    <div class="reviewStasticsRightEmpty"></div>
+                    <div class="reviewStasticsFoot"></div>
+                </div>
+            </div>
+            <div class="makeReviewDiv">
+                <form action="foredoreview" method="post">
+                    <div class="makeReviewText">其他买家，需要你的建议哦！</div>
+                    <table class="makeReviewTable">
+                        <tbody>
+                            <tr>
+                                <td class="makeReviewTableFirstTD">评价商品</td>
+                                <td><textarea name="content"></textarea></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="makeReviewButtonDiv">
+        				<input type="hidden" name="oid" value="7645">
+        				<input type="hidden" name="pid" value="91">
+        				<button type="submit">提交评价</button>
+        			</div>
+                </form>
+            </div>
+        </div>
+    <iframe src="commonFoot.html" frameborder="0" width="100%" height="600px;"></iframe>
+
+</body>
+</html>

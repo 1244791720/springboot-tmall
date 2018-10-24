@@ -1,0 +1,29 @@
+div.payedDiv {
+    border: 1px solid #D4D4D4;
+    max-width: 1013px;
+    margin: 10px auto 20px auto;
+}
+
+div.payedTextDiv {
+    height: 61px;
+    background-color: #ECFFDC;
+    padding: 17px 0px 0px 25px;
+}
+
+div.payedAddressInfo {
+    padding: 26px 35px;
+}
+
+a.payedCheckLink {
+    color: #2D8CBA;
+}
+
+div.payedSeperateLine {
+    border-top: 1px dotted #D4D4D4;
+    margin: 0px 31px;
+}
+
+div.warningDiv {
+    color: black;
+    margin: 23px 45px;
+}

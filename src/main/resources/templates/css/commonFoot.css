@@ -1,0 +1,86 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+.footer {
+    border-top: 1px solid #e7e7e7;
+}
+.footer_ensure {
+    margin: 24px;
+    text-align: center;
+}
+
+.horizontal_line {
+    border-top: 1px solid #e7e7e7;
+}
+.footer_desc {
+    padding-top: 30px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+.footer_desc .descColumn {
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+.footer_desc a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+.footer_desc a:hover {
+    text-decoration: none;
+    color: #C40000;
+}
+.descColumn .descColumnTitle {
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.copyright {
+    background-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #C40000;
+    margin-top: 20px;
+}
+
+div.coptyrightMiddle {
+    width: 1024px;
+    margin: 0px auto;
+    text-align: left;
+    position: relative;
+}
+
+img.cateye {
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    top: -33px;
+    left: -15px;
+}
+
+div.white_link {
+    padding: 10px;
+    color: white;
+}
+
+div.white_link a {
+    color: white;
+    padding: 0px 5px;
+}
+
+div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.license div.copyRightYear {
+    margin: 10px 0px;
+    color: #686868;
+}
+
+div.license span {
+    color: #A4A4A4;
+}

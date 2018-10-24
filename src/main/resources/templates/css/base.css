@@ -1,0 +1,20 @@
+.border {
+    border: solid 1px black;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-size: 12px;
+    font-family: Arial;
+    min-width: 1024px;
+}
+
+.boldWord {
+    font-weight: bold;
+}
+
+.redColor {
+    color: #C40000;
+}

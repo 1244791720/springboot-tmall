@@ -1,0 +1,212 @@
+a,a:hover {
+    text-decoration: none;
+}
+
+div.buyPageDiv {
+    margin: 20px auto;
+    max-width: 1013px;
+}
+
+div.address {
+    margin: 20px 5px;
+    text-align: left;
+}
+
+div.addressTip, div.productListTip {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+table.addressTable {
+    margin: 20px 20px;
+    width: 600px;
+}
+
+span.redStar {
+    color: red;
+    font-size: 8px;
+}
+
+table.addressTable td.firstColumn {
+    width: 100px;
+}
+
+table.addressTable td {
+    color: #333333;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 5px;
+    text-align: left;
+    height: 30px;
+    font-size: 12px;
+}
+
+table.addressTable td textarea {
+    border: 1px solid #AFAFAF;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+table.addressTable td input {
+    border: 1px solid #AFAFAF;
+    width: 200px;
+}
+
+div.addressTip, div.productListTip {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+table.productListTable {
+    width: 100%;
+    border-collapse: separate;
+}
+
+th.productListTableFirstColumn {
+    text-align: left !important;
+}
+
+img.tmallbuy {
+    width: 15px;
+}
+
+a.marketLink {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+span.wangwangGif {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../image/site/wangwang.gif);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: -83px -0px;
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+
+table.productListTable th {
+    color: #999999;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+table.productListTable tr.rowborder td {
+    background-color: #b2d1ff;
+    border-right: 2px solid #fff;
+    height: 3px;
+}
+
+tbody.productListTableTbody td.orderItemFirstTD {
+    text-align: left;
+    width: 68px;
+}
+
+img.orderItemImg {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E9E9E9;
+}
+
+a.orderItemProductLink {
+    color: #666666;
+    display: block;
+}
+
+td.orderItemProductInfo img {
+    height: 16px;
+}
+
+span.orderItemProductPrice, span.orderItemProductNumber {
+    color: #000000;
+}
+
+span.orderItemUnitSum {
+    color: #CC0000;
+    font-weight: bold;
+}
+
+label.orderItemDeliveryLabel {
+    color: #666666;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+select.orderItemDeliverySelect {
+    width: 100px;
+    height: 23px;
+}
+
+div.orderItemSumDiv {
+    padding: 20px;
+    border-top: 2px solid #B4D0FF;
+    background-color: #F2F6FF;
+    height: 50px;
+}
+
+div.orderItemSumDiv span {
+    color: #999999;
+}
+
+span.leaveMessageText {
+    margin-right: 10px;
+    float: left;
+}
+
+textarea.leaveMessageTextarea {
+    border: 1px solid #FFAD35;
+    width: 250px;
+    height: 60px;
+    resize: none;
+}
+
+div.orderItemTotalSumDiv {
+    margin: 40px;
+    height: 40px;
+}
+
+span.orderItemTotalSumSpan {
+    color: #C40000 !important;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px dotted #F2F6FF;
+}
+
+div.submitOrderDiv {
+    height: 40px;
+    margin: 20px 0px;
+}
+
+button.submitOrderButton {
+    border: 1px solid #C40000;
+    background-color: #C40000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    float: right;
+}
+
+div.buyPageDiv button {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 180px;
+    height: 40px;
+}

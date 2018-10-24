@@ -1,0 +1,70 @@
+div.registerDiv {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+div.registerErrorMessageDiv {
+    width: 600px;
+    margin: 0px auto;
+    height: 50px;
+    visibility: hidden;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+table.registerTable {
+    color: #3C3C3C;
+    font-size: 16px;
+    table-layout: fixed;
+    margin-top: 50px;
+}
+
+
+
+table.registerTable td {
+    padding: 10px 30px;
+}
+
+td.registerTip {
+    font-weight: bold;
+}
+
+td.registerTableLeftTD {
+    width: 300px;
+    text-align: right;
+}
+
+table td {
+    font-size: 12px;
+}
+
+table.registerTable input {
+    border: 1px solid #DEDEDE;
+    width: 213px;
+    height: 36px;
+    font-size: 14px;
+}
+
+td.registerTableRightTD {
+    text-align: left;
+}
+
+table.registerTable button {
+    width: 170px;
+    height: 36px;
+    border-radius: 2px;
+    color: white;
+    background-color: #C40000;
+    border-width: 0px;
+}

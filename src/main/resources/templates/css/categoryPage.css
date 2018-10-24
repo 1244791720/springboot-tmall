@@ -1,0 +1,127 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+    min-width: 1024px;
+}
+div.categoryPageDiv {
+    margin-bottom: 40px;
+}
+div.categorySortBar {
+    background-color: #FAF9F9;
+    margin: 40px 20px 20px 20px;
+    padding: 4px;
+}
+
+table.categorySortBarTable {
+    border-collapse: collapse;
+    display: inline-table;
+}
+
+table.categorySortBarTable td {
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    height: 23px;
+}
+
+table.categorySortBarTable td a {
+    color: #806F66;
+    font-size: 12px;
+}
+
+table.categorySortBarTable input {
+    border-width: 0px;
+    height: 100%;
+    width: 50px;
+    font-size: 12px;
+}
+
+table.categorySortBarTable span.glyphicon {
+    font-size: 10px;
+}
+
+table.categorySortBarTable td.priceMiddleColumn {
+    width: 10px;
+    vertical-align: middle;
+    color: #CCCCCC;
+}
+
+table.categorySortBarTable td.grayColumn {
+    background-color: #F1EDEC;
+}
+
+div.categoryProducts {
+    padding: 0px 20px 40px 20px;
+}
+
+div.productUnit {
+    width: 225px;
+    height: 338px;
+    border: 3px solid #fff;
+    background-color: white;
+    margin: 12px 5px;
+    float: left;
+    padding: 0px;
+}
+
+div.productUnit:hover {
+    border: 3px solid #C40000;
+}
+
+div.productUnitFrame {
+    border: 1px solid #eee;
+}
+
+div.productUnitFrame a:hover {
+    color: #C40000 !important;
+}
+
+div.productUnit img.productImage {
+    width: 100%;
+    height: 190px;
+}
+
+div.productUnit span.productPrice {
+    font-size: 20px;
+    color: #CC0000;
+    display: block;
+    padding-left: 4px;
+}
+
+div.productUnit a.productLink {
+    margin: 10px 0px;
+    color: #333333;
+    font-size: 0.8em;
+    display: block;
+}
+
+a.productLink {
+    height: 34px;
+}
+
+div.productUnit a.tmallLink {
+    margin: 10px 0px;
+    color: #999999;
+    font-size: 0.8em;
+    display: block;
+    text-decoration: underline;
+}
+
+div.productUnit div.productInfo {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #EEEEEE;
+    color: #999999;
+}
+
+div.productUnit span.productDealNumber {
+    font-weight: bold;
+    color: #B57C5B;
+}
+
+div.productUnit span.monthDeal, div.productUnit span.productReview {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+}

@@ -114,3 +114,8 @@ button.redButton {
     font-size: 14px;
     font-weight: bold;
 }
+
+img.loginBackgroundImg {
+    display: block;
+    margin: 0px auto;
+}

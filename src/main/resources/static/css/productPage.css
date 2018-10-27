@@ -1,5 +1,5 @@
 body {
-    width: 1024px;
+    width: 100%;
 }
 
 .flipx {
@@ -285,8 +285,12 @@ div.productReviewTopPart {
     border: 1px solid #DFDFDF;
 }
 
+div.productReviewDiv  a{
+    font-size: 12px;
+}
+
 a.productReviewTopPartSelectedLink {
-    padding: 0px 20px;
+    padding: 0px 10px;
     color: #333333;
 }
 

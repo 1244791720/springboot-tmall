@@ -9,6 +9,7 @@ body {
     font-size: 12px;
     font-family: Arial;
     min-width: 1024px;
+    width: 100%;
 }
 
 .boldWord {

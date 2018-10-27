@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js""></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/paymentPage.css" />
+    <link rel="stylesheet" href="css/commonNav.css" />
+    <link rel="stylesheet" href="css/commonFoot.css" />
     <title>支付页面</title>
 </head>
 <body>
-    <iframe src="commonNav.html" align="middle" seamless="seamless" frameborder="0" width="100%" height="34px"></iframe>
+    <div th:replace="commonNav::commonNav"></div>
     <div class="aliPayPageDiv">
         <div class="aliPayPageLogo">
             <img class="pull-left" src="image/site/simpleLogo.png">
@@ -29,6 +31,6 @@
             <a href="forepayed?oid=7644&amp;total=7648.32"><button class="confirmPay">确认支付</button></a>
         </div>
     </div>
-    <iframe src="commonFoot.html" frameborder="0" width="100%" height="600px;"></iframe>
+    <div th:replace="commonFoot::commonFoot"></div>
 </body>
 </html>

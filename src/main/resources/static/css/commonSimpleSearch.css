@@ -4,7 +4,7 @@ body {
     min-width: 1024px;
     line-height: 1.42857143;
 }
-a {
+.simpleSearchOutDiv a {
     color: #999;
     text-decoration: none;
     padding: 0 20px;
@@ -19,7 +19,7 @@ div.simpleSearchDiv {
     display: block;
 }
 div.simpleSearchOutDiv {
-    max-width: 1024px;
+    /*max-width: 1024px;*/
     margin: 0px auto;
     position: relative;
 }

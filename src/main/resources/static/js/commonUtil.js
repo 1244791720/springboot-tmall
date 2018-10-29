@@ -61,6 +61,45 @@ function commonUtil() {
         return productImages;
     }
 
+    // 添加html内容到某个div
+    util.setDivInnerHtml = function (div, html) {
+        div.innerHTML = html
+    }
+
+    // 获取地址栏的参数
+    util.GetQueryString = function (name) {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return unescape(r[2]); return null;
+    }
+
+    util.getPropertysByCid = function (cid) {
+        // 设置ajax为同步
+        $.ajaxSetup({
+            async: false
+        })
+
+        $.get("/propertys" + cid, function (data, status) {
+            window.propertys = JSON.parse(data)
+        })
+
+        return propertys
+    }
+
+    util.getPropertyValueByCidAndPtid = function (ptid,pid) {
+        var url = "/propertyValue" + ptid +"&"+pid
+        // 设置ajax为同步
+        $.ajaxSetup({
+            async: false
+        })
+
+        $.get(url, function (data, status) {
+            window.propertyValue = JSON.parse(data)
+        })
+
+        return propertyValue
+    }
+
     return util
 }
 

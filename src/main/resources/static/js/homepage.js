@@ -141,7 +141,6 @@ var createrPoductsAsideCategorys = () => {
         // 分割subTitle内的字符串通过空格
         for (var i = 0; i < products.length; i++) {
             var msg = products[i].subTitle
-            // console.log('msg===============>', msg)
             var msgs = msg.trim().split(/\s+/)
             if (msgs != "") {
                 rows = rows + `<div class="row">`
@@ -198,10 +197,10 @@ var createEachHomepageCategoryProducts = () => {
             var productImages = util.getProductImagesByPid(pId)
             var pIId = productImages[0].id
             html = html + `<div class="productItem">
-                    <a href="">
+                    <a href="product?pid=${pId}">
                         <img src="http://tmall.how2j.cn/productSingle_middle/${pIId}.jpg" width="100px" />
                     </a>
-                    <a class="productItemDescLink" href="">
+                    <a class="productItemDescLink" href="product?pid=${pId}">
                         <span class="productItemDesc">${pname}</span>
                     </a>
                     <span class="productPrice">${p.promotePrice}</span>
@@ -210,7 +209,6 @@ var createEachHomepageCategoryProducts = () => {
             `
         }
 
-        console.log("c===>", c)
     }
 
     html = html + `
@@ -230,6 +228,5 @@ var _main = function() {
     controlCarouselOfProduct()
     productItemImgMask()
     maoerChange()
-
 }
 window.onload = _main()

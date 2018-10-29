@@ -18,4 +18,10 @@ public class MainController {
 
         return "homepage";
     }
+
+    @GetMapping("/product")
+    public String productPage() {
+
+        return "productPage";
+    }
 }
